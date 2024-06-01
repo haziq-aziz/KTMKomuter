@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "K9qcRrU3ZhhkVdm6ceNsn0HLH1obljHOOGQV3iZxTHGu8UHTf3iiMn7Iyq/YfUeHUl/Cdmxn60eelg2swH079A==",
+  "dgSpecHash": "2YOFDC3F/zrEVJHX6WKNnnkLnq1jIf2NRVGOqWuVVF0zYqzK3Ryq1hyCxFes0Lul57ptCLbD3ZZsovZo4QVRuw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\VICTUS\\Desktop\\project final ap\\KTMKomuter\\KTMKomuter\\KTMKomuter.csproj",
-=======
-  "dgSpecHash": "Rw/cCwM6k+Q=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\HP\\Desktop\\Project\\KTMKomuter\\KTMKomuter\\KTMKomuter\\KTMKomuter.csproj",
->>>>>>> 96186b249f50c438e59002d8177495c78b075aa0
+  "projectFilePath": "C:\\Users\\333\\OneDrive - Universiti Kuala Lumpur\\Desktop\\Advanced Programming\\Lab\\KTMKomuter\\KTMKomuter\\KTMKomuter.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\333\\OneDrive - Universiti Kuala Lumpur\\Desktop\\Advanced Programming\\Lab\\KTMKomuter\\KTMKomuter\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

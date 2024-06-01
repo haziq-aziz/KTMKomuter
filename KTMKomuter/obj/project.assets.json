@@ -8,34 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\VICTUS\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\HP\\.nuget\\packages\\": {}
->>>>>>> 96186b249f50c438e59002d8177495c78b075aa0
+    "C:\\Users\\333\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\VICTUS\\Desktop\\project final ap\\KTMKomuter\\KTMKomuter\\KTMKomuter.csproj",
+      "projectUniqueName": "C:\\Users\\333\\OneDrive - Universiti Kuala Lumpur\\Desktop\\Advanced Programming\\Lab\\KTMKomuter\\KTMKomuter\\KTMKomuter.csproj",
       "projectName": "KTMKomuter",
-      "projectPath": "C:\\Users\\VICTUS\\Desktop\\project final ap\\KTMKomuter\\KTMKomuter\\KTMKomuter.csproj",
-      "packagesPath": "C:\\Users\\VICTUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VICTUS\\Desktop\\project final ap\\KTMKomuter\\KTMKomuter\\obj\\",
+      "projectPath": "C:\\Users\\333\\OneDrive - Universiti Kuala Lumpur\\Desktop\\Advanced Programming\\Lab\\KTMKomuter\\KTMKomuter\\KTMKomuter.csproj",
+      "packagesPath": "C:\\Users\\333\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\333\\OneDrive - Universiti Kuala Lumpur\\Desktop\\Advanced Programming\\Lab\\KTMKomuter\\KTMKomuter\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\VICTUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Project\\KTMKomuter\\KTMKomuter\\KTMKomuter\\KTMKomuter.csproj",
-      "projectName": "KTMKomuter",
-      "projectPath": "C:\\Users\\HP\\Desktop\\Project\\KTMKomuter\\KTMKomuter\\KTMKomuter\\KTMKomuter.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Desktop\\Project\\KTMKomuter\\KTMKomuter\\KTMKomuter\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 96186b249f50c438e59002d8177495c78b075aa0
+        "C:\\Users\\333\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -84,12 +69,16 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
->>>>>>> 96186b249f50c438e59002d8177495c78b075aa0
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\333\\OneDrive - Universiti Kuala Lumpur\\Desktop\\Advanced Programming\\Lab\\KTMKomuter\\KTMKomuter\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
