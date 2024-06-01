@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "K9qcRrU3ZhhkVdm6ceNsn0HLH1obljHOOGQV3iZxTHGu8UHTf3iiMn7Iyq/YfUeHUl/Cdmxn60eelg2swH079A==",
   "success": true,
   "projectFilePath": "C:\\Users\\VICTUS\\Desktop\\project final ap\\KTMKomuter\\KTMKomuter\\KTMKomuter.csproj",
+=======
+  "dgSpecHash": "Rw/cCwM6k+Q=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\Project\\KTMKomuter\\KTMKomuter\\KTMKomuter\\KTMKomuter.csproj",
+>>>>>>> 96186b249f50c438e59002d8177495c78b075aa0
   "expectedPackageFiles": [],
   "logs": []
 }

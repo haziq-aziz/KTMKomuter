@@ -8,11 +8,16 @@
     "net8.0": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\VICTUS\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
+>>>>>>> 96186b249f50c438e59002d8177495c78b075aa0
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\VICTUS\\Desktop\\project final ap\\KTMKomuter\\KTMKomuter\\KTMKomuter.csproj",
       "projectName": "KTMKomuter",
       "projectPath": "C:\\Users\\VICTUS\\Desktop\\project final ap\\KTMKomuter\\KTMKomuter\\KTMKomuter.csproj",
@@ -21,6 +26,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\VICTUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\HP\\Desktop\\Project\\KTMKomuter\\KTMKomuter\\KTMKomuter\\KTMKomuter.csproj",
+      "projectName": "KTMKomuter",
+      "projectPath": "C:\\Users\\HP\\Desktop\\Project\\KTMKomuter\\KTMKomuter\\KTMKomuter\\KTMKomuter.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HP\\Desktop\\Project\\KTMKomuter\\KTMKomuter\\KTMKomuter\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 96186b249f50c438e59002d8177495c78b075aa0
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,7 +84,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 96186b249f50c438e59002d8177495c78b075aa0
       }
     }
   }
