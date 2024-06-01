@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\333\\OneDrive - Universiti Kuala Lumpur\\Desktop\\Advanced Programming\\Lab\\KTMKomuter\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9B8792-A1A3-48D7-B5B3-5400B67E4440}|KTMKomuter\\KTMKomuter.csproj|c:\\users\\333\\onedrive - universiti kuala lumpur\\desktop\\advanced programming\\lab\\ktmkomuter\\ktmkomuter\\haziqtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9B8792-A1A3-48D7-B5B3-5400B67E4440}|KTMKomuter\\KTMKomuter.csproj|solutionrelative:ktmkomuter\\haziqtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +27,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HaziqTest.cs",
+              "DocumentMoniker": "C:\\Users\\333\\OneDrive - Universiti Kuala Lumpur\\Desktop\\Advanced Programming\\Lab\\KTMKomuter\\KTMKomuter\\HaziqTest.cs",
+              "RelativeDocumentMoniker": "KTMKomuter\\HaziqTest.cs",
+              "ToolTip": "C:\\Users\\333\\OneDrive - Universiti Kuala Lumpur\\Desktop\\Advanced Programming\\Lab\\KTMKomuter\\KTMKomuter\\HaziqTest.cs",
+              "RelativeToolTip": "KTMKomuter\\HaziqTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:15:48.172Z",
+              "EditorCaption": ""
             }
           ]
         }
