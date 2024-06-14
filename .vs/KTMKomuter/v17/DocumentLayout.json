@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Ratna Dewi\\OneDrive\\Documents\\SEM 4 BSE\\AP\\project\\KTMKomuter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A9B8792-A1A3-48D7-B5B3-5400B67E4440}|KTMKomuter\\KTMKomuter.csproj|c:\\users\\ratna dewi\\onedrive\\documents\\sem 4 bse\\ap\\project\\ktmkomuter\\ktmkomuter\\ratna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A9B8792-A1A3-48D7-B5B3-5400B67E4440}|KTMKomuter\\KTMKomuter.csproj|solutionrelative:ktmkomuter\\ratna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A9B8792-A1A3-48D7-B5B3-5400B67E4440}|KTMKomuter\\KTMKomuter.csproj|c:\\users\\ratna dewi\\onedrive\\documents\\sem 4 bse\\ap\\project\\ktmkomuter\\ktmkomuter\\views\\tickettransaction\\orderticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A9B8792-A1A3-48D7-B5B3-5400B67E4440}|KTMKomuter\\KTMKomuter.csproj|solutionrelative:ktmkomuter\\views\\tickettransaction\\orderticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A9B8792-A1A3-48D7-B5B3-5400B67E4440}|KTMKomuter\\KTMKomuter.csproj|c:\\users\\ratna dewi\\onedrive\\documents\\sem 4 bse\\ap\\project\\ktmkomuter\\ktmkomuter\\tuahtest.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A9B8792-A1A3-48D7-B5B3-5400B67E4440}|KTMKomuter\\KTMKomuter.csproj|solutionrelative:ktmkomuter\\tuahtest.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4A9B8792-A1A3-48D7-B5B3-5400B67E4440}|KTMKomuter\\KTMKomuter.csproj|c:\\users\\ratna dewi\\onedrive\\documents\\sem 4 bse\\ap\\project\\ktmkomuter\\ktmkomuter\\models\\tickettransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9B8792-A1A3-48D7-B5B3-5400B67E4440}|KTMKomuter\\KTMKomuter.csproj|solutionrelative:ktmkomuter\\models\\tickettransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9B8792-A1A3-48D7-B5B3-5400B67E4440}|KTMKomuter\\KTMKomuter.csproj|c:\\users\\ratna dewi\\onedrive\\documents\\sem 4 bse\\ap\\project\\ktmkomuter\\ktmkomuter\\controllers\\tickettransactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9B8792-A1A3-48D7-B5B3-5400B67E4440}|KTMKomuter\\KTMKomuter.csproj|solutionrelative:ktmkomuter\\controllers\\tickettransactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9B8792-A1A3-48D7-B5B3-5400B67E4440}|KTMKomuter\\KTMKomuter.csproj|c:\\users\\ratna dewi\\onedrive\\documents\\sem 4 bse\\ap\\project\\ktmkomuter\\ktmkomuter\\views\\tickettransaction\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A9B8792-A1A3-48D7-B5B3-5400B67E4440}|KTMKomuter\\KTMKomuter.csproj|solutionrelative:ktmkomuter\\views\\tickettransaction\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9B8792-A1A3-48D7-B5B3-5400B67E4440}|KTMKomuter\\KTMKomuter.csproj|c:\\users\\ratna dewi\\onedrive\\documents\\sem 4 bse\\ap\\project\\ktmkomuter\\ktmkomuter\\views\\tickettransaction\\ticketinvoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A9B8792-A1A3-48D7-B5B3-5400B67E4440}|KTMKomuter\\KTMKomuter.csproj|solutionrelative:ktmkomuter\\views\\tickettransaction\\ticketinvoice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9B8792-A1A3-48D7-B5B3-5400B67E4440}|KTMKomuter\\KTMKomuter.csproj|c:\\users\\ratna dewi\\onedrive\\documents\\sem 4 bse\\ap\\project\\ktmkomuter\\ktmkomuter\\wwwroot\\css\\ticket.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A9B8792-A1A3-48D7-B5B3-5400B67E4440}|KTMKomuter\\KTMKomuter.csproj|solutionrelative:ktmkomuter\\wwwroot\\css\\ticket.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +42,80 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ticket.css",
+              "DocumentMoniker": "C:\\Users\\Ratna Dewi\\OneDrive\\Documents\\SEM 4 BSE\\AP\\project\\KTMKomuter\\KTMKomuter\\wwwroot\\css\\ticket.css",
+              "RelativeDocumentMoniker": "KTMKomuter\\wwwroot\\css\\ticket.css",
+              "ToolTip": "C:\\Users\\Ratna Dewi\\OneDrive\\Documents\\SEM 4 BSE\\AP\\project\\KTMKomuter\\KTMKomuter\\wwwroot\\css\\ticket.css",
+              "RelativeToolTip": "KTMKomuter\\wwwroot\\css\\ticket.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-14T14:14:19.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TicketInvoice.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ratna Dewi\\OneDrive\\Documents\\SEM 4 BSE\\AP\\project\\KTMKomuter\\KTMKomuter\\Views\\TicketTransaction\\TicketInvoice.cshtml",
+              "RelativeDocumentMoniker": "KTMKomuter\\Views\\TicketTransaction\\TicketInvoice.cshtml",
+              "ToolTip": "C:\\Users\\Ratna Dewi\\OneDrive\\Documents\\SEM 4 BSE\\AP\\project\\KTMKomuter\\KTMKomuter\\Views\\TicketTransaction\\TicketInvoice.cshtml",
+              "RelativeToolTip": "KTMKomuter\\Views\\TicketTransaction\\TicketInvoice.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:12:38.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ratna.cs",
-              "DocumentMoniker": "C:\\Users\\Ratna Dewi\\OneDrive\\Documents\\SEM 4 BSE\\AP\\project\\KTMKomuter\\KTMKomuter\\ratna.cs",
-              "RelativeDocumentMoniker": "KTMKomuter\\ratna.cs",
-              "ToolTip": "C:\\Users\\Ratna Dewi\\OneDrive\\Documents\\SEM 4 BSE\\AP\\project\\KTMKomuter\\KTMKomuter\\ratna.cs",
-              "RelativeToolTip": "KTMKomuter\\ratna.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "OrderTicket.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ratna Dewi\\OneDrive\\Documents\\SEM 4 BSE\\AP\\project\\KTMKomuter\\KTMKomuter\\Views\\TicketTransaction\\OrderTicket.cshtml",
+              "RelativeDocumentMoniker": "KTMKomuter\\Views\\TicketTransaction\\OrderTicket.cshtml",
+              "ToolTip": "C:\\Users\\Ratna Dewi\\OneDrive\\Documents\\SEM 4 BSE\\AP\\project\\KTMKomuter\\KTMKomuter\\Views\\TicketTransaction\\OrderTicket.cshtml",
+              "RelativeToolTip": "KTMKomuter\\Views\\TicketTransaction\\OrderTicket.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:11:35.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ratna Dewi\\OneDrive\\Documents\\SEM 4 BSE\\AP\\project\\KTMKomuter\\KTMKomuter\\Views\\TicketTransaction\\Error.cshtml",
+              "RelativeDocumentMoniker": "KTMKomuter\\Views\\TicketTransaction\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Ratna Dewi\\OneDrive\\Documents\\SEM 4 BSE\\AP\\project\\KTMKomuter\\KTMKomuter\\Views\\TicketTransaction\\Error.cshtml",
+              "RelativeToolTip": "KTMKomuter\\Views\\TicketTransaction\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T14:10:46.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TicketTransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\Ratna Dewi\\OneDrive\\Documents\\SEM 4 BSE\\AP\\project\\KTMKomuter\\KTMKomuter\\Controllers\\TicketTransactionController.cs",
+              "RelativeDocumentMoniker": "KTMKomuter\\Controllers\\TicketTransactionController.cs",
+              "ToolTip": "C:\\Users\\Ratna Dewi\\OneDrive\\Documents\\SEM 4 BSE\\AP\\project\\KTMKomuter\\KTMKomuter\\Controllers\\TicketTransactionController.cs",
+              "RelativeToolTip": "KTMKomuter\\Controllers\\TicketTransactionController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T16:37:43.43Z",
+              "WhenOpened": "2024-06-14T14:02:50.294Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TuahTest.html",
-              "DocumentMoniker": "C:\\Users\\Ratna Dewi\\OneDrive\\Documents\\SEM 4 BSE\\AP\\project\\KTMKomuter\\KTMKomuter\\TuahTest.html",
-              "RelativeDocumentMoniker": "KTMKomuter\\TuahTest.html",
-              "ToolTip": "C:\\Users\\Ratna Dewi\\OneDrive\\Documents\\SEM 4 BSE\\AP\\project\\KTMKomuter\\KTMKomuter\\TuahTest.html",
-              "RelativeToolTip": "KTMKomuter\\TuahTest.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-06-01T16:27:12.708Z",
+              "Title": "TicketTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\Ratna Dewi\\OneDrive\\Documents\\SEM 4 BSE\\AP\\project\\KTMKomuter\\KTMKomuter\\Models\\TicketTransaction.cs",
+              "RelativeDocumentMoniker": "KTMKomuter\\Models\\TicketTransaction.cs",
+              "ToolTip": "C:\\Users\\Ratna Dewi\\OneDrive\\Documents\\SEM 4 BSE\\AP\\project\\KTMKomuter\\KTMKomuter\\Models\\TicketTransaction.cs",
+              "RelativeToolTip": "KTMKomuter\\Models\\TicketTransaction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:59:33.813Z",
               "EditorCaption": ""
             }
           ]

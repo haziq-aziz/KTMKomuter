@@ -1,0 +1,67 @@
+﻿@model KTMKomuter.Models.TicketTransaction
+
+<head>
+    <title>Order Ticket Form</title>
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        <h5>Passenger Information</h5>
+        <div class="row">
+            <p class="col-md-4">
+                <label>@Html.DisplayNameFor(x => x.CustName)</label>
+                @Html.TextBoxFor(x => x.CustName, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.CustName, "", new { @class = "text-danger" })
+            </p>
+            <p class="col-md-4">
+                <label>@Html.DisplayNameFor(x => x.CustIdentity)</label>
+                @Html.TextBoxFor(x => x.CustIdentity, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.CustIdentity, "", new { @class = "text-danger" })
+            </p>
+        </div>
+        <div class="row">
+            <p class="col-md-4">
+                <label>@Html.DisplayNameFor(x => x.CustEmail)</label>
+                @Html.TextBoxFor(x => x.CustEmail, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.CustEmail, "", new { @class = "text-danger" })
+            </p>
+        </div>
+
+        <h5>Ticket Information</h5>
+        <div class="row">
+            <p class="col-md-4">
+                <label>@Html.DisplayNameFor(x => x.IndexDeparture)</label>
+                @Html.DropDownListFor(x => x.IndexDeparture,
+                         new SelectList(Model.DictDeparture, "Key", "Value"), "From Station:"
+                         , new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.IndexDeparture, "", new { @class = "text-danger" })
+            </p>
+            <p class="col-md-4">
+                <label>@Html.DisplayNameFor(x => x.IndexArrival)</label>
+                @Html.DropDownListFor(x => x.IndexArrival,
+                         new SelectList(Model.DictArrival, "Key", "Value"), "To Station:"
+                         , new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.IndexArrival, "", new { @class = "text-danger" })
+            </p>
+            <p class="col-md-4">
+                <label>@Html.DisplayNameFor(x => x.IndexCategory)</label>
+                @Html.DropDownListFor(x => x.IndexCategory,
+                         new SelectList(Model.DictCategory, "Key", "Value"), "Select category:"
+                         , new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.IndexCategory, "", new { @class = "text-danger" })
+            </p>
+            <p class="col-md-4">
+                <label>@Html.DisplayNameFor(x => x.IndexTypeTicket)</label>
+                @Html.DropDownListFor(x => x.IndexTypeTicket,
+                         new SelectList(Model.DictType, "Key", "Value"), "Select type:"
+                         , new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.IndexTypeTicket, "", new { @class = "text-danger" })
+            </p>
+        </div>
+        <br />
+        <p>
+            <input type="submit" value="Submit" class="btn btn-primary" />
+        </p>
+    }
+</body>
+
