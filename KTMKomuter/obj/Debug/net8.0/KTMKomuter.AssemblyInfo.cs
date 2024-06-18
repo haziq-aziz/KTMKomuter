@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KTMKomuter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b40e2fe75a363998f61e9c5a330c8aca6eb9c038")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0d296e9e415db5ccec1c85aa3bc52ec5328f29e")]
 [assembly: System.Reflection.AssemblyProductAttribute("KTMKomuter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KTMKomuter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
