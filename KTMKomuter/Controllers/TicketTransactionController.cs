@@ -8,10 +8,12 @@ namespace KTMKomuter.Controllers
     public class TicketTransactionController : Controller
     {
         private readonly IConfiguration configuration;
+        private readonly ILogger<TicketTransactionController> logger;
 
-        public TicketTransactionController(IConfiguration config)
+        public TicketTransactionController(IConfiguration config, ILogger<TicketTransactionController> logger)
         {
             this.configuration = config;
+            this.logger = logger;
         }
 
         // Method to get the database list
@@ -45,8 +47,9 @@ namespace KTMKomuter.Controllers
                 }
             }
 
-            catch
+            catch (Exception ex)
             {
+                logger.LogError(ex, "An error occurred while fetching the data.");
                 RedirectToAction("Error");
             }
 
@@ -120,6 +123,12 @@ namespace KTMKomuter.Controllers
 
             else
                 return View(ticket);
+        }
+
+        public IActionResult AdminDashboard ()
+        {
+            IList<TicketTransaction> dbList = GetDbList();
+            return View(dbList);
         }
     }
 }
