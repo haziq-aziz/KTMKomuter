@@ -42,7 +42,8 @@ namespace KTMKomuter.Controllers
                         IndexArrival = reader.GetInt32(6),
                         IndexCategory = reader.GetInt32(7),
                         IndexTypeTicket = reader.GetInt32(8),
-                        TotalAmount = reader.GetDouble(9)
+                        IndexQuantity = reader.GetInt32(9),
+                        TotalAmount = reader.GetDouble(10)
                     });
                 }
             }
@@ -97,11 +98,11 @@ namespace KTMKomuter.Controllers
                 cmd.Parameters.AddWithValue("@custname", ticket.CustName);
                 cmd.Parameters.AddWithValue("@custidentity", ticket.CustIdentity);
                 cmd.Parameters.AddWithValue("@custemail", ticket.CustEmail);
-
                 cmd.Parameters.AddWithValue("@indexdeparture", ticket.IndexDeparture);
                 cmd.Parameters.AddWithValue("@indexarrival", ticket.IndexArrival);
                 cmd.Parameters.AddWithValue("@indexcategory", ticket.IndexCategory);
                 cmd.Parameters.AddWithValue("@indextypeticket", ticket.IndexTypeTicket);
+                cmd.Parameters.AddWithValue("@indexquantity", ticket.IndexQuantity);
                 cmd.Parameters.AddWithValue("@totalamount", ticket.TotalAmount);
 
                 try

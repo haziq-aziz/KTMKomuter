@@ -92,7 +92,7 @@ namespace KTMKomuter.Models
                     discountedFare *= 2;
                 }
 
-                return discountedFare;
+                return discountedFare * IndexQuantity;
             }
 
             set { }
@@ -241,5 +241,11 @@ namespace KTMKomuter.Models
             }
 
         }
+
+        [Required]
+        [Display(Name = "Ticket Quantity")]
+        [Range(1, int.MaxValue, ErrorMessage = "The value must be greater than 0.")]
+        public int IndexQuantity { get; set; }
+
     }
 }
