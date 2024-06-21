@@ -1,4 +1,5 @@
-﻿using KTMKomuter.Models;
+﻿using KTMKomuter.MailSettings;
+using KTMKomuter.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Data;
 using System.Data.SqlClient;
@@ -222,6 +223,39 @@ namespace KTMKomuter.Controllers
             {
                 conn.Close();
             }
+        }
+        public IActionResult SendMail(string id)
+        {
+            IList<TicketTransaction> dbList = GetDbList();
+            var result = dbList.First(x => x.ViewId == id);
+
+            var subject = "Parcel Information" + result.ViewId;
+            var body = "Parcel id:" + result.ViewId + "<br>" +
+                "Date and time: " + result.ViewDateTime + "<br>" +
+                "Customer name: " + result.CustName + "<br>" +
+                "Customer Identity : " + result.CustIdentity + "<br>" +
+                "Departure : " + result.DictDeparture[result.IndexDeparture] + "<br>" +
+                "Arrival : " + result.DictArrival[result.IndexArrival] + "<br>" +
+                "Category : " + result.DictCategory[result.IndexCategory] + "<br>" +
+                "Ticket Type: " + result.DictType[result.IndexTypeTicket] + "<br>" +
+                "Number of Ticket: " + result.IndexQuantity + "<br>" +
+                "Total Amount: " + result.TotalAmount.ToString("c2");
+
+            var mail = new Mail(configuration);
+
+            if (mail.Send(configuration["Gmail:Username"], result.CustEmail, subject, body))
+            {
+                ViewBag.Message = "Mail successfully send to " + result.CustEmail;
+                ViewBag.Body = body;
+            }
+            else
+            {
+                ViewBag.Message = "Sent Mail Failed";
+                ViewBag.Body = "";
+            }
+
+            return View(result);
+
         }
     }
 }
