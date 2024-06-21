@@ -1,0 +1,29 @@
+﻿@model KTMKomuter.Models.TicketTransaction
+@{
+    ViewData["Title"] = "Admin Panel Login";
+}
+<div class="container">
+    <main role="main" class="pb-3">
+        <div class="admin-container">
+            <div class="admin-login-container">
+                <div class="admin-login-header">
+                    <h1>Admin Panel Login</h1>
+                    <p>Please enter your credentials to login</p>
+                </div>
+                <form>
+                    <div class="admin-form-group">
+                        <input class="admin-form-control" type="email" placeholder="Email" required>
+                        <span class="admin-form-label">Email</span>
+                    </div>
+                    <div class="admin-form-group">
+                        <input class="admin-form-control" type="password" placeholder="Password" required>
+                        <span class="admin-form-label">Password</span>
+                    </div>
+                    <div class="admin-form-group">
+                        <button class="admin-submit-btn" type="button" onclick="window.location.href='@Url.Action("AdminDashboard", "TicketTransaction")'">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</div>
