@@ -10,7 +10,7 @@
     @using (Html.BeginForm("SearchIndex", "TicketTransaction", FormMethod.Get))
     {
         <p>
-            <label>Search by parcel id or sender name: </label>
+            <label>Search by ticket id or customer name: </label>
             @Html.TextBox("SearchString")
             <input type="submit" value="Search" />
             @Html.ActionLink("Back to Full List", "AdminDashboard")
@@ -39,6 +39,7 @@
                 <td>@Html.DisplayFor(y => x.CustIdentity)</td>
                 <td>@Html.DisplayFor(y => x.CustEmail)</td>
                 <td>@Html.DisplayFor(y => x.DictDeparture[x.IndexDeparture])</td>
+                <td>@Html.DisplayFor(y => x.DictArrival[x.IndexArrival])</td>
                 <td>@Html.DisplayFor(y => x.DictCategory[x.IndexCategory])</td>
                 <td>@Html.DisplayFor(y => x.DictType[x.IndexTypeTicket])</td>
                 <td>@Html.DisplayFor(y => x.TotalAmount)</td>

@@ -130,5 +130,22 @@ namespace KTMKomuter.Controllers
             IList<TicketTransaction> dbList = GetDbList();
             return View(dbList);
         }
+
+        public IActionResult SearchIndex(string searchString = "")
+        {
+            IList<TicketTransaction> dbList = GetDbList();
+            var result = dbList.Where(x => x.ViewId.ToLower().Contains(searchString.ToLower()) ||
+            x.CustName.ToLower().Contains(searchString.ToLower()))
+                .OrderBy(x => x.CustName).ThenByDescending(x => x.ViewDateTime);
+
+            return View("AdminDashboard", result);
+        }
+        public IActionResult Details(string id)
+        {
+            IList<TicketTransaction> dbList = GetDbList();
+            var result = dbList.First(x => x.ViewId == id);
+
+            return View(result);
+        }
     }
 }
