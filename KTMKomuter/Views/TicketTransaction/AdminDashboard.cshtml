@@ -1,56 +1,55 @@
 ﻿@model IEnumerable<KTMKomuter.Models.TicketTransaction>
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+<div class="container">
+    <main role="main" class="pb-3">
+        <h5>Ticket List</h5>
 
-<html>
-<head>
-    <title>Ticket List</title>
-</head>
-<body>
-    <h5>Ticket List</h5>
-
-    @using (Html.BeginForm("SearchIndex", "TicketTransaction", FormMethod.Get))
-    {
-        <p>
-            <label>Search by ticket id or customer name: </label>
-            @Html.TextBox("SearchString")
-            <input type="submit" value="Search" />
-            @Html.ActionLink("Back to Full List", "AdminDashboard")
-        </p>
-    }
-    <table class="table">
-        <tr>
-            <th>@Html.DisplayNameFor(x => x.ViewId)</th>
-            <th>@Html.DisplayNameFor(x => x.ViewDateTime)</th>
-            <th>@Html.DisplayNameFor(x => x.CustName)</th>
-            <th>@Html.DisplayNameFor(x => x.CustIdentity)</th>
-            <th>@Html.DisplayNameFor(x => x.CustEmail)</th>
-            <th>@Html.DisplayNameFor(x => x.DictDeparture)</th>
-            <th>@Html.DisplayNameFor(x => x.DictArrival)</th>
-            <th>@Html.DisplayNameFor(x => x.DictCategory)</th>
-            <th>@Html.DisplayNameFor(x => x.DictType)</th>
-            <th>@Html.DisplayNameFor(x => x.TotalAmount)</th>
-            <th>@Html.DisplayNameFor(x => x)</th>
-        </tr>
-        @foreach (var x in Model)
+        @using (Html.BeginForm("SearchIndex", "TicketTransaction", FormMethod.Get))
         {
-            <tr>
-                <td>@Html.DisplayFor(y => x.ViewId)</td>
-                <td>@Html.DisplayFor(y => x.ViewDateTime)</td>
-                <td>@Html.DisplayFor(y => x.CustName)</td>
-                <td>@Html.DisplayFor(y => x.CustIdentity)</td>
-                <td>@Html.DisplayFor(y => x.CustEmail)</td>
-                <td>@Html.DisplayFor(y => x.DictDeparture[x.IndexDeparture])</td>
-                <td>@Html.DisplayFor(y => x.DictArrival[x.IndexArrival])</td>
-                <td>@Html.DisplayFor(y => x.DictCategory[x.IndexCategory])</td>
-                <td>@Html.DisplayFor(y => x.DictType[x.IndexTypeTicket])</td>
-                <td>@Html.DisplayFor(y => x.TotalAmount)</td>
-                <td>
-                    @Html.ActionLink("Details", "Details", new { id = x.ViewId }) |
-                    @Html.ActionLink("Edit", "Edit", new { id = x.ViewId }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = x.ViewId }) |
-                    @Html.ActionLink("Mail", "SendMail", new { id = x.ViewId }) |
-                </td>
-            </tr>
+            <p>
+                <label>Search by ticket id or customer name: </label>
+                @Html.TextBox("SearchString")
+                <input type="submit" value="Search" />
+                @Html.ActionLink("Back to Full List", "AdminDashboard")
+            </p>
         }
-    </table>
-</body>
-</html>
+        <table class="table">
+            <tr>
+                <th>@Html.DisplayNameFor(x => x.ViewId)</th>
+                <th>@Html.DisplayNameFor(x => x.ViewDateTime)</th>
+                <th>@Html.DisplayNameFor(x => x.CustName)</th>
+                <th>@Html.DisplayNameFor(x => x.CustIdentity)</th>
+                <th>@Html.DisplayNameFor(x => x.CustEmail)</th>
+                <th>@Html.DisplayNameFor(x => x.DictDeparture)</th>
+                <th>@Html.DisplayNameFor(x => x.DictArrival)</th>
+                <th>@Html.DisplayNameFor(x => x.DictCategory)</th>
+                <th>@Html.DisplayNameFor(x => x.DictType)</th>
+                <th>@Html.DisplayNameFor(x => x.TotalAmount)</th>
+                <th>@Html.DisplayNameFor(x => x)</th>
+            </tr>
+            @foreach (var x in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(y => x.ViewId)</td>
+                    <td>@Html.DisplayFor(y => x.ViewDateTime)</td>
+                    <td>@Html.DisplayFor(y => x.CustName)</td>
+                    <td>@Html.DisplayFor(y => x.CustIdentity)</td>
+                    <td>@Html.DisplayFor(y => x.CustEmail)</td>
+                    <td>@Html.DisplayFor(y => x.DictDeparture[x.IndexDeparture])</td>
+                    <td>@Html.DisplayFor(y => x.DictArrival[x.IndexArrival])</td>
+                    <td>@Html.DisplayFor(y => x.DictCategory[x.IndexCategory])</td>
+                    <td>@Html.DisplayFor(y => x.DictType[x.IndexTypeTicket])</td>
+                    <td>@Html.DisplayFor(y => x.TotalAmount)</td>
+                    <td>
+                        @Html.ActionLink("", "Details", new { id = x.ViewId }, new { @class = "fas fa-info-circle" })
+                        @Html.ActionLink("", "Edit", new { id = x.ViewId }, new { @class = "fas fa-edit" })
+                        @Html.ActionLink("", "Delete", new { id = x.ViewId }, new { @class = "fas fa-trash-alt" })
+                        @Html.ActionLink("", "SendMail", new { id = x.ViewId }, new { @class = "fas fa-envelope" })
+                    </td>
+                </tr>
+            }
+        </table>
+    </main>
+</div>

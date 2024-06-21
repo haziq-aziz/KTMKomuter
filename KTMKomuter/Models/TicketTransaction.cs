@@ -47,11 +47,11 @@ namespace KTMKomuter.Models
 
         //ticket
         [Required]
-        [Display(Name = "From station")]
+        [Display(Name = "From")]
         public int IndexDeparture { get; set; }
 
         [Required]
-        [Display(Name = "To station")]
+        [Display(Name = "To")]
         public int IndexArrival { get; set; }
 
         [Required]
