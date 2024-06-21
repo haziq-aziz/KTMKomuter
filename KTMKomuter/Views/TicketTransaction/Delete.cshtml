@@ -15,7 +15,7 @@
     </p>
     <h5>Customer Information</h5>
     <p>
-        <label>Customer Name:</label>
+        <label>Name:</label>
         @Html.DisplayFor(x => x.CustName)
     </p>
     <p>
@@ -44,10 +44,16 @@
         @Html.DisplayFor(x => x.DictType[Model.IndexTypeTicket])
     </p>
     <p>
-        <label>Total:</label>
+        <label>Total Amount:</label>
         @Html.DisplayFor(x => x.TotalAmount)
     </p>
     <p>
-        @Html.ActionLink("Back to List", "AdminDashboard")
+        @using (Html.BeginForm())
+        {
+            <input type="submit" value="Confirm Delete" />
+        }
+    </p>
+    <p>
+        @Html.ActionLink("Back to List", "Index")
     </p>
 </body>
