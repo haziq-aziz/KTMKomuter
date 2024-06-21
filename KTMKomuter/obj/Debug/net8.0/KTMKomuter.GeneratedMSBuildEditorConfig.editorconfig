@@ -9,51 +9,71 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = KTMKomuter
 build_property.RootNamespace = KTMKomuter
-build_property.ProjectDir = C:\Users\Ratna Dewi\OneDrive\Documents\SEM 4 BSE\AP\project\KTMKomuter\KTMKomuter\
+build_property.ProjectDir = C:\Users\333\OneDrive - Universiti Kuala Lumpur\Desktop\Advanced Programming\Test\KTMKomuter\KTMKomuter\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Ratna Dewi\OneDrive\Documents\SEM 4 BSE\AP\project\KTMKomuter\KTMKomuter
+build_property.MSBuildProjectDirectory = C:\Users\333\OneDrive - Universiti Kuala Lumpur\Desktop\Advanced Programming\Test\KTMKomuter\KTMKomuter
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Ratna Dewi/OneDrive/Documents/SEM 4 BSE/AP/project/KTMKomuter/KTMKomuter/Views/Home/Index.cshtml]
+[C:/Users/333/OneDrive - Universiti Kuala Lumpur/Desktop/Advanced Programming/Test/KTMKomuter/KTMKomuter/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ratna Dewi/OneDrive/Documents/SEM 4 BSE/AP/project/KTMKomuter/KTMKomuter/Views/Home/Privacy.cshtml]
+[C:/Users/333/OneDrive - Universiti Kuala Lumpur/Desktop/Advanced Programming/Test/KTMKomuter/KTMKomuter/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ratna Dewi/OneDrive/Documents/SEM 4 BSE/AP/project/KTMKomuter/KTMKomuter/Views/Shared/Error.cshtml]
+[C:/Users/333/OneDrive - Universiti Kuala Lumpur/Desktop/Advanced Programming/Test/KTMKomuter/KTMKomuter/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ratna Dewi/OneDrive/Documents/SEM 4 BSE/AP/project/KTMKomuter/KTMKomuter/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/333/OneDrive - Universiti Kuala Lumpur/Desktop/Advanced Programming/Test/KTMKomuter/KTMKomuter/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ratna Dewi/OneDrive/Documents/SEM 4 BSE/AP/project/KTMKomuter/KTMKomuter/Views/TicketTransaction/Error.cshtml]
+[C:/Users/333/OneDrive - Universiti Kuala Lumpur/Desktop/Advanced Programming/Test/KTMKomuter/KTMKomuter/Views/TicketTransaction/AdminDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0VHJhbnNhY3Rpb25cQWRtaW5EYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/333/OneDrive - Universiti Kuala Lumpur/Desktop/Advanced Programming/Test/KTMKomuter/KTMKomuter/Views/TicketTransaction/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0VHJhbnNhY3Rpb25cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/333/OneDrive - Universiti Kuala Lumpur/Desktop/Advanced Programming/Test/KTMKomuter/KTMKomuter/Views/TicketTransaction/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0VHJhbnNhY3Rpb25cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/333/OneDrive - Universiti Kuala Lumpur/Desktop/Advanced Programming/Test/KTMKomuter/KTMKomuter/Views/TicketTransaction/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0VHJhbnNhY3Rpb25cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/333/OneDrive - Universiti Kuala Lumpur/Desktop/Advanced Programming/Test/KTMKomuter/KTMKomuter/Views/TicketTransaction/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0VHJhbnNhY3Rpb25cRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ratna Dewi/OneDrive/Documents/SEM 4 BSE/AP/project/KTMKomuter/KTMKomuter/Views/TicketTransaction/OrderTicket.cshtml]
+[C:/Users/333/OneDrive - Universiti Kuala Lumpur/Desktop/Advanced Programming/Test/KTMKomuter/KTMKomuter/Views/TicketTransaction/OrderTicket.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0VHJhbnNhY3Rpb25cT3JkZXJUaWNrZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ratna Dewi/OneDrive/Documents/SEM 4 BSE/AP/project/KTMKomuter/KTMKomuter/Views/TicketTransaction/TicketInvoice.cshtml]
+[C:/Users/333/OneDrive - Universiti Kuala Lumpur/Desktop/Advanced Programming/Test/KTMKomuter/KTMKomuter/Views/TicketTransaction/SendMail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0VHJhbnNhY3Rpb25cU2VuZE1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/333/OneDrive - Universiti Kuala Lumpur/Desktop/Advanced Programming/Test/KTMKomuter/KTMKomuter/Views/TicketTransaction/TicketInvoice.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0VHJhbnNhY3Rpb25cVGlja2V0SW52b2ljZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ratna Dewi/OneDrive/Documents/SEM 4 BSE/AP/project/KTMKomuter/KTMKomuter/Views/_ViewImports.cshtml]
+[C:/Users/333/OneDrive - Universiti Kuala Lumpur/Desktop/Advanced Programming/Test/KTMKomuter/KTMKomuter/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ratna Dewi/OneDrive/Documents/SEM 4 BSE/AP/project/KTMKomuter/KTMKomuter/Views/_ViewStart.cshtml]
+[C:/Users/333/OneDrive - Universiti Kuala Lumpur/Desktop/Advanced Programming/Test/KTMKomuter/KTMKomuter/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ratna Dewi/OneDrive/Documents/SEM 4 BSE/AP/project/KTMKomuter/KTMKomuter/Views/Shared/_Layout.cshtml]
+[C:/Users/333/OneDrive - Universiti Kuala Lumpur/Desktop/Advanced Programming/Test/KTMKomuter/KTMKomuter/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gk0ue8v2zz

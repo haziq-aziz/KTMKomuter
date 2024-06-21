@@ -1,59 +1,72 @@
 ﻿@model KTMKomuter.Models.TicketTransaction
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
 
-<head>
-    <title>Ticket Transaction Details</title>
-    <link href="~/css/poslaju.css" rel="stylesheet" />
-</head>
-<body>
-    <p>
-        <label>Ticket Id:</label>
-        @Html.DisplayFor(x => x.TicketId)
-    </p>
-    <p>
-        <label>Date and Time:</label>
-        @Html.DisplayFor(x => x.ViewDateTime)
-    </p>
-    <h5>Customer Information</h5>
-    <p>
-        <label>Name:</label>
-        @Html.DisplayFor(x => x.CustName)
-    </p>
-    <p>
-        <label>IC/Passport No:</label>
-        @Html.DisplayFor(x => x.CustIdentity)
-    </p>
-    <p>
-        <label>Email:</label>
-        @Html.DisplayFor(x => x.CustEmail)
-    </p>
-    <h5>Ticket Information</h5>
-    <p>
-        <label>Depature:</label>
-        @Html.DisplayFor(x => x.DictDeparture[Model.IndexDeparture])
-    </p>
-    <p>
-        <label>Arrival:</label>
-        @Html.DisplayFor(x => x.DictArrival[Model.IndexArrival])
-    </p>
-    <p>
-        <label>Category:</label>
-        @Html.DisplayFor(x => x.DictCategory[Model.IndexCategory])
-    </p>
-    <p>
-        <label>Ticket Type:</label>
-        @Html.DisplayFor(x => x.DictType[Model.IndexTypeTicket])
-    </p>
-    <p>
-        <label>Total Amount:</label>
-        @Html.DisplayFor(x => x.TotalAmount)
-    </p>
-    <p>
-        @using (Html.BeginForm())
-        {
-            <input type="submit" value="Confirm Delete" />
-        }
-    </p>
-    <p>
-        @Html.ActionLink("Back to List", "Index")
-    </p>
-</body>
+<div class="container">
+    <main role="main" class="pb-3">
+        <div class="card">
+            <div class="card-header">
+                Ticket Details
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="font-weight-bold">Ticket Id:</label>
+                            @Html.DisplayFor(x => x.TicketId)
+                        </div>
+                        <div class="form-group">
+                            <label class="font-weight-bold">Date and Time:</label>
+                            @Html.DisplayFor(x => x.ViewDateTime)
+                        </div>
+                        <div class="form-group">
+                            <h5 class="font-weight-bold">Customer Information</h5>
+                            <label>Name:</label>
+                            @Html.DisplayFor(x => x.CustName)
+                        </div>
+                        <div class="form-group">
+                            <label>IC/Passport No:</label>
+                            @Html.DisplayFor(x => x.CustIdentity)
+                        </div>
+                        <div class="form-group">
+                            <label>Email:</label>
+                            @Html.DisplayFor(x => x.CustEmail)
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <h5 class="font-weight-bold">Ticket Information</h5>
+                            <label>Departure:</label>
+                            @Html.DisplayFor(x => x.DictDeparture[Model.IndexDeparture])
+                        </div>
+                        <div class="form-group">
+                            <label>Arrival:</label>
+                            @Html.DisplayFor(x => x.DictArrival[Model.IndexArrival])
+                        </div>
+                        <div class="form-group">
+                            <label>Category:</label>
+                            @Html.DisplayFor(x => x.DictCategory[Model.IndexCategory])
+                        </div>
+                        <div class="form-group">
+                            <label>Ticket Type:</label>
+                            @Html.DisplayFor(x => x.DictType[Model.IndexTypeTicket])
+                        </div>
+                        <div class="form-group">
+                            <label>Total Amount:</label>
+                            @Html.DisplayFor(x => x.TotalAmount)
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer text-center">
+                @using (Html.BeginForm("Delete", "AdminDashboard", FormMethod.Post))
+                {
+                    @Html.HiddenFor(x => x.TicketId)
+                    <div><input type="submit" value="Confirm Delete" class="btn btn-danger" /></div>
+                    <div>@Html.ActionLink("Back to List", "AdminDashboard", null, new { @class = "btn btn-secondary ml-2" })</div>
+                }
+            </div>
+        </div>
+    </main>
+</div>
