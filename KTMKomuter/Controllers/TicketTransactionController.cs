@@ -257,5 +257,10 @@ namespace KTMKomuter.Controllers
             return View(result);
 
         }
+
+        public IActionResult LoginPage()
+        {
+            return View();
+        }
     }
 }
