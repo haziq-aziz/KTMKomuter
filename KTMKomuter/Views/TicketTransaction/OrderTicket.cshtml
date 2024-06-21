@@ -6,6 +6,17 @@
 <body>
     @using (Html.BeginForm())
     {
+        <p><h5>KTMKomuter Price</h5></p>
+        <table width="100%" border="1">
+            <tr align="center">
+                <td></td>
+
+            </tr>
+
+
+        </table>
+
+
         <h5>Passenger Information</h5>
         <div class="row">
             <p class="col-md-4">
@@ -57,6 +68,13 @@
                          , new { @class = "form-control" })
                 @Html.ValidationMessageFor(x => x.IndexTypeTicket, "", new { @class = "text-danger" })
             </p>
+            <div class="row">
+                <p class="col-md-4">
+                    <label>@Html.DisplayNameFor(x => x.IndexQuantity)</label>
+                    @Html.TextBoxFor(x => x.IndexQuantity, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.IndexQuantity, "", new { @class = "text-danger" })
+                </p>
+            </div>
         </div>
         <br />
         <p>
@@ -64,4 +82,3 @@
         </p>
     }
 </body>
-
