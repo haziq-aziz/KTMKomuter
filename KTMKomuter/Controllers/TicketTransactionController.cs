@@ -187,5 +187,40 @@ namespace KTMKomuter.Controllers
             }
             return RedirectToAction("AdminDashboard");
         }
+
+        [HttpGet]
+        public IActionResult Delete(string id)
+        {
+            IList<TicketTransaction> dbList = GetDbList();
+            var result = dbList.First(x => x.ViewId == id);
+
+            return View(result);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        public IActionResult ConfirmDelete(string id)
+        {
+            SqlConnection conn = new SqlConnection(configuration.GetConnectionString("KTMConnStr"));
+            SqlCommand cmd = new SqlCommand("spDeleteTicket", conn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@id", id);
+
+            try
+            {
+                conn.Open();
+                cmd.ExecuteNonQuery();
+                return RedirectToAction("AdminDashboard");
+            }
+
+            catch
+            {
+                return View();
+            }
+
+            finally
+            {
+                conn.Close();
+            }
+        }
     }
 }
