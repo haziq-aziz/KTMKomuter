@@ -1,0 +1,29 @@
+﻿@model KTMKomuter.Models.TicketTransaction
+
+<head>
+    <title>Pos Laju Edit Form</title>
+    <!-- <link href="~/css/poslaju.css" rel="stylesheet" /> -->
+</head>
+<body>
+    @using (Html.BeginForm())
+    {
+        <label>Ticket Id:</label>
+        @Html.DisplayFor(x => x.ViewId)
+        <h5>Customer Information</h5>
+        <p>
+            <label>Name:</label>
+            @Html.TextBoxFor(x => x.CustName)
+        </p>
+        <p>
+            <label>IC/Passport No:</label>
+            @Html.TextBoxFor(x => x.CustIdentity)
+        </p>
+        <p>
+            <label>Email:</label>
+            @Html.TextBoxFor(x => x.CustEmail)
+        </p>
+        <p>
+            <input type="submit" value="Submit" />
+        </p>
+    }
+</body>

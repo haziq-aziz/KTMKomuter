@@ -147,5 +147,45 @@ namespace KTMKomuter.Controllers
 
             return View(result);
         }
+
+        [HttpGet]
+        public IActionResult Edit(string id)
+        {
+            IList<TicketTransaction> dbList = GetDbList();
+            var result = dbList.First(x => x.ViewId == id);
+
+            return View(result);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(string id, TicketTransaction parcel)
+        {
+            SqlConnection conn = new SqlConnection(configuration.GetConnectionString("KTMConnStr"));
+            SqlCommand cmd = new SqlCommand("spUpdateTicket", conn);
+            cmd.CommandType = CommandType.StoredProcedure;
+
+            cmd.Parameters.AddWithValue("@id", id);
+            cmd.Parameters.AddWithValue("@custname", parcel.CustName);
+            cmd.Parameters.AddWithValue("@custidentity", parcel.CustIdentity);
+            cmd.Parameters.AddWithValue("@custemail", parcel.CustEmail);
+
+            try
+            {
+                conn.Open();
+                cmd.ExecuteNonQuery();
+            }
+
+            catch (Exception ex)
+            {
+                logger.LogError(ex, "An error occurred while fetching the data.");
+                RedirectToAction("Error");
+            }
+
+            finally
+            {
+                conn.Close();
+            }
+            return RedirectToAction("AdminDashboard");
+        }
     }
 }
