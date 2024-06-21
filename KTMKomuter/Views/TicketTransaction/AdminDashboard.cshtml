@@ -26,6 +26,7 @@
                 <th>@Html.DisplayNameFor(x => x.DictArrival)</th>
                 <th>@Html.DisplayNameFor(x => x.DictCategory)</th>
                 <th>@Html.DisplayNameFor(x => x.DictType)</th>
+                <th>@Html.DisplayNameFor(x => x.IndexQuantity)</th>
                 <th>@Html.DisplayNameFor(x => x.TotalAmount)</th>
                 <th>@Html.DisplayNameFor(x => x)</th>
             </tr>
@@ -41,6 +42,7 @@
                     <td>@Html.DisplayFor(y => x.DictArrival[x.IndexArrival])</td>
                     <td>@Html.DisplayFor(y => x.DictCategory[x.IndexCategory])</td>
                     <td>@Html.DisplayFor(y => x.DictType[x.IndexTypeTicket])</td>
+                    <td>@Html.DisplayFor(y => x.IndexQuantity)</td>
                     <td>@Html.DisplayFor(y => x.TotalAmount)</td>
                     <td>
                         @Html.ActionLink("", "Details", new { id = x.ViewId }, new { @class = "fas fa-info-circle" })

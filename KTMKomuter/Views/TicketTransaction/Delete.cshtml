@@ -60,12 +60,12 @@
                 </div>
             </div>
             <div class="card-footer text-center">
-                @using (Html.BeginForm("Delete", "AdminDashboard", FormMethod.Post))
+                @using (Html.BeginForm())
                 {
-                    @Html.HiddenFor(x => x.TicketId)
                     <div><input type="submit" value="Confirm Delete" class="btn btn-danger" /></div>
-                    <div>@Html.ActionLink("Back to List", "AdminDashboard", null, new { @class = "btn btn-secondary ml-2" })</div>
+                    
                 }
+                <div>@Html.ActionLink("Back to List", "AdminDashboard", null, new { @class = "btn btn-secondary ml-2" })</div>
             </div>
         </div>
     </main>
